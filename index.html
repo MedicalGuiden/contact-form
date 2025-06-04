@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="icon" href="favicon.png" type="image/png">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>HealthyCare | Medical Info</title>
@@ -10,10 +9,11 @@
     body {
       font-family: Arial, sans-serif;
       margin: 0; padding: 0;
-      background: #f5f5f5;
+      background: #f4f4f4;
+      color: #333;
     }
     .navbar {
-      background-color: #0066cc;
+      background-color: #0073e6;
       color: white;
       display: flex;
       justify-content: space-between;
@@ -26,129 +26,111 @@
       text-decoration: none;
     }
     .hero {
-      background-color: #e0f2ff;
-      padding: 80px 20px;
+      background: #e0f0ff;
       text-align: center;
+      padding: 60px 20px;
     }
     .hero h1 {
       font-size: 36px;
-      color: #0066cc;
+      color: #0073e6;
     }
     .hero p {
-      margin-top: 10px;
       font-size: 18px;
+      margin-top: 10px;
     }
     .section {
-      padding: 60px 20px;
       background: white;
-      text-align: center;
+      margin: 20px auto;
+      padding: 40px 20px;
       max-width: 900px;
-      margin: auto;
-      margin-bottom: 20px;
-      border-radius: 6px;
-      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    .section h2 {
-      color: #0066cc;
-      margin-bottom: 15px;
+    h2 {
+      color: #0073e6;
     }
-    .footer {
-      background-color: #003366;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
+    .services ul {list-style: none;
+      padding: 0;
+    }
+    .services li {
+      margin: 10px 0;
+    }
+    .posts a {
+      display: block;
+      margin: 10px 0;
+      color: #0073e6;
+      text-decoration: none;
     }
     form input, form textarea {
-  width: 90%;
- max-width: 400px;
-  padding: 10px;
-  margin: 5px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-form button {
-  padding: 10px 20px;
-  background-color: #0066cc;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-form button:hover {
-  background-color: #004999;
-  }
+      width: 100%;
+      max-width: 500px;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      background-color: #0073e6;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #003366;
+      color: white;
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
 
-  <nav class="navbar">
-
+  <div class="navbar">
     <div><strong>HealthyCare</strong></div>
     <div>
       <a href="index.html">Home</a>
       <a href="blog.html">Blog</a>
       <a href="#services">Services</a>
       <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-    </div>
-  </nav>
-
-  <section class="hero">
-  <h1>Welcome to HealthyCare</h1>
-  <p>Your go-to hub for trusted medical advice and wellness tips.</p>
-  <a href="#services" style="
-    display: inline-block;
-    margin-top: 20px;
-    padding: 12px 25px;
-    background-color: #0066cc;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-  ">Explore Services</a>
-  </section>
-
-  <section id="services" class="section">
-  <h2>Our Services</h2>
-  <p>
-    Health Articles: <a href="contact-form/cholera.html": Causes, Symptoms & Treatment</a>, Medical Q&A, Wellness Tips, First Aid Guides.
-  </p>
-  </section>    </div>
-    <div style="max-width: 200px;">
-      <img src="https://cdn-icons-png.flaticon.com/512/2972/2972415.png" alt="Medical Q&A" style="width: 80px;">
-      <p>Medical Q&A</p>
-    </div>
-    <div style="max-width: 200px;">
-      <img src="https://cdn-icons-png.flaticon.com/512/2942/2942071.png" alt="Wellness Tips" style="width: 80px;">
-      <p>Wellness Tips</p>
-    </div>
-    <div style="max-width: 200px;">
-      <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" alt="First Aid" style="width: 80px;">
-      <p>First Aid Guides</p>
     </div>
   </div>
-  </section>
 
-  <section id="contact" class="section">
-  <h2>Contact Us</h2>
-  <form action="https://formsubmit.co/hmd26040@gmail.com" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required><br><br>
-    <input type="email" name="email" placeholder="Your Email" required><br><br>
-    <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br><br>
-    <button type="submit">Send</button>
-  </form>
-</section>
-  <section id="about" class="section">
-  <h2>About Us</h2>
-  <p>
-    HealthyCare is a trusted platform dedicated to delivering clear, evidence-based health information. Our goal is to make reliable medical content easy to understand and accessible to everyone.
-  </p>
-  </section>
+  <div class="hero">
+    <h1>Your Trusted Source for Medical Knowledge</h1>
+    <p>Get reliable, up-to-date health information at your fingertips.</p>
+  </div>
 
-  <footer class="footer">
+  <div id="services" class="section services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Health Articles</li>
+      <li>Medical Q&A</li><li>Wellness Tips</li>
+      <li>First Aid Guides</li>
+    </ul>
+  </div>
+
+  <div class="section posts">
+    <h2>Latest Articles</h2>
+    <a href="cholera.html">Cholera: Causes, Symptoms, and Prevention</a>
+    <!-- Add more articles here -->
+  </div>
+
+  <div id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form action="https://formsubmit.co/hmd26040@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <footer>
     &copy; 2025 HealthyCare. All rights reserved.
   </footer>
 
 </body>
-    </html>
+</html>
