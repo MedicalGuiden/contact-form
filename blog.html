@@ -4,119 +4,64 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>HealthyCare | Medical Info</title>
+  <title>Blog - HealthyCare</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
-      background: #f5f5f5;
-    }
-    .navbar {
-      background-color: #0066cc;
-      color: white;
-      display: flex;
-      justify-content: space-between;
-      padding: 15px 30px;
-      align-items: center;
-    }
-    .navbar a {
-      color: white;
-      margin-left: 20px;
-      text-decoration: none;
-    }
-    .hero {
-      background-color: #e0f2ff;
-      padding: 80px 20px;
-      text-align: center;
-    }
-    .hero h1 {
-      font-size: 36px;
-      color: #0066cc;
-    }
-    .hero p {
-      margin-top: 10px;
-      font-size: 18px;
-    }
-    .section {
-      padding: 60px 20px;
-      background: white;
-      text-align: center;
       max-width: 900px;
-      margin: auto;
-      margin-bottom: 20px;
-      border-radius: 6px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      color: #0066cc;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .post {
+      background: white;
+      padding: 20px;
+      margin-bottom: 25px;
+      border-radius: 8px;
       box-shadow: 0 0 8px rgba(0,0,0,0.1);
     }
-    .section h2 {
+    .post h2 {
+      margin-top: 0;
+      color: #004999;
+    }
+    .post p {
+      line-height: 1.6;
+    }
+    .read-more {
+      display: inline-block;
+      margin-top: 12px;
       color: #0066cc;
-      margin-bottom: 15px;
+      text-decoration: none;
+      font-weight: bold;
     }
-    .footer {
-      background-color: #003366;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
+    .read-more:hover {
+      text-decoration: underline;
     }
-    form input, form textarea {
-  width: 90%;
- max-width: 400px;
-  padding: 10px;
-  margin: 5px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-form button {
-  padding: 10px 20px;
-  background-color: #0066cc;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-form button:hover {
-  background-color: #004999;
-  }
   </style>
 </head>
 <body>
-  <div class="blog-container">
-  
+
+  <h1>Blog - HealthyCare</h1>
+
+  <div class="post">
+    <h2><a href="articles/cholera.html" style="color:#004999; text-decoration:none;">كل ما تريد معرفته عن الكوليرا</a></h2>
+<p>الكوليرا مرض معدي يسبب إسهالًا حادًا وجفافًا شديدًا. تعرف على الأسباب، الأعراض، وطرق الوقاية...</p>
+    <a class="read-more" href="articles/cholera.html">اقرأ المزيد</a>
   </div>
-  <ul>
-  <li><a href="contact-form/cholera.html">Cholera: Causes, Symptoms & Treatment</a></li>
-  <!-- ممكن تضيف مقالات تانية هنا -->
-  </ul>
 
-  <nav class="navbar">
-    <div><strong>HealthyCare</strong></div>
-    <div>
-      <a href="index.html">Home</a>
-      <a href="blog.html">Blog</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </nav>
+  <div class="post">
+    <h2><a href="articles/hypertension.html" style="color:#004999; text-decoration:none;">ارتفاع ضغط الدم: الأسباب والعلاج</a></h2>
+    <p>تعرف على أهم المعلومات حول ارتفاع ضغط الدم، عوامل الخطورة، وكيفية التعامل مع هذه الحالة الصحية...</p>
+    <a class="read-more" href="articles/hypertension.html">اقرأ المزيد</a>
+  </div>
 
-  <section class="section">
-  <h2>Hypertension (High Blood Pressure)</h2>
-  <p>Hypertension is when the blood pressure in the arteries is too high. It can damage your heart, kidneys, and brain.</p>
-  <p>To prevent it: eat healthy, exercise regularly, reduce salt intake, and manage stress.</p>
-</section>
-
-  <section id="contact" class="section">
-  <h2>Contact Us</h2>
-  <form action="https://formsubmit.co/hmd26040@gmail.com" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required><br><br>
-    <input type="email" name="email" placeholder="Your Email" required><br><br>
-    <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br><br>
-    <button type="submit">Send</button>
-  </form>
-</section>
-
-  <footer class="footer">
-    &copy; 2025 HealthyCare. All rights reserved.
-  </footer>
+  <!-- ممكن تضيف مقالات جديدة هنا بنفس التنسيق -->
 
 </body>
 </html>
