@@ -1,49 +1,94 @@
-<html> 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cholera | HealthyCare</title>
+  <title>HealthyCare | Blog</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 20px;
-      background: #f9f9f9;
+      margin: 0; padding: 0;
+      background: #f4f4f4;
       color: #333;
-      max-width: 800px;
-      margin-left: auto;
-      margin-right: auto;
-      line-height: 1.6;
+    }
+    .navbar {
+      background-color: #0073e6;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 30px;
+      align-items: center;
+    }
+    .navbar a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      background: white;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
     h1 {
       color: #0073e6;
       text-align: center;
     }
-    img {
-      display: block;
-      max-width: 100%;
-      height: auto;
-      margin: 20px auto;
-      border-radius: 8px;
+    .post {
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ddd;
     }
-    p {
-      margin-bottom: 15px;
+    .post h2 {
+      color: #0073e6;
+    }
+    .post p {
+      margin: 10px 0;
+    }
+    .post a {
+      color: #0073e6;
+      text-decoration: none;
+    }
+    footer {text-align: center;
+      padding: 20px;
+      background-color: #003366;
+      color: white;
+      font-size: 14px;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
 
-  <h1>Cholera: Causes, Symptoms, and Prevention</h1>
+  <div class="navbar">
+    <div><strong>HealthyCare</strong></div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
 
-  <img src="images/cholera.jpg" alt="Cholera bacteria under microscope" />
+  <div class="container">
+    <h1>Health Articles</h1>
 
-  <p><strong>Cholera</strong> is an acute diarrheal disease caused by the bacterium <em>Vibrio cholerae</em>. It is usually transmitted through contaminated water or food. Cholera can cause severe dehydration and even death if not treated promptly.</p>
-  <p><strong>Symptoms</strong> of cholera include watery diarrhea, vomiting, and rapid dehydration. The disease can spread rapidly in areas with poor sanitation and limited access to clean water.</p>
+    <div class="post">
+      <h2>Cholera: Causes, Symptoms & Prevention</h2>
+      <p>A quick overview of cholera, how it spreads, symptoms to watch for, and how to protect yourself.</p>
+      <a href="cholera.html">Read More</a>
+    </div>
 
-  <p><strong>Prevention</strong> measures include drinking clean water, proper sanitation, and good hygiene practices. Vaccination is also available in some regions to help control outbreaks.</p>
+    <!-- Add more articles in same structure -->
+    
+  </div>
 
-  <p>If you suspect cholera infection, seek medical attention immediately. Rehydration therapy and antibiotics are effective treatments.</p>
+  <footer>
+    &copy; 2025 HealthyCare. All rights reserved.
+  </footer>
 
 </body>
 </html>
